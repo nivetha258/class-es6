@@ -1,69 +1,4 @@
 
-/*
-const obj={
-	"name":"Nivetha",
-	"age":28,
-	"qualification":"B.E",
-	"student":false,
-	"job":null,
-	"education":{"school":"B.H.S.S","college":"B.I.T"},
-	
-}
-
-
-obj.gender="female";
-
-delete obj.qualification
-
-console.log(obj.student);
-console.log(obj.education.school)
-console.log(obj.qualification)
-console.log(obj.gender)
-console.log(obj)
-//obj.year=obj.age;
-//delete obj.age;
-
-
-const {age,...a}= obj
-
-const newobj={year:age,...a}
-console.log(newobj)
-
-//console.log(age)
-var array = [1,2,5,8];
-var array2 = array;
-array2.push(77);
-console.log(array,array2);
-
-var s=10;
-var y=s;
-y=44;
-console.log(s,y)
-
-
-
-let age = 17;
-let test = "pass";
-let adhaar = "yes";
-
-if(age >=18 && test == "pass")
-{
-	console.log("you are eligible for license")
-}
-else {
-	console.log("you are not eligible for license")
-}
-
-if(age >=18 && adhaar == "yes")
-{
-	console.log("you are eligible for voting")
-}
-else {
-	console.log("you are not eligible for voting")
-}
-	
-	*/
-	
 	
 	class Trainee{
 		constructor(name,number,qualification,rating){
@@ -89,7 +24,7 @@ else {
 		}
 	}
 	let traineesList=[];
-	var trainee1 = new Trainee("Nivetha",8883811088,"B.E",5);
+	var trainee1 = new Trainee("Nivetha",7883811088,"B.E",5);
 	var trainee2 = new Trainee("Revathi",7773811088,"B.TECH",5);
 	var trainee3 = new Trainee("Kalai",8547511088,"B.E",5);
 	var trainee4 = new Trainee("Vaanmathi",9883811088,"B.TECH",5);
